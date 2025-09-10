@@ -1,7 +1,4 @@
-from pathlib import Path
-
-# HTML content (same as user provided premium special offer)
-html_content = """<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="bn">
 <head>
   <meta charset="UTF-8">
@@ -169,10 +166,4 @@ html_content = """<!DOCTYPE html>
     offerBtn.href = offerLink.replace("{click_id}", clickId);
   </script>
 </body>
-</html>"""
-
-# Save file
-file_path = Path("/mnt/data/premium_special_offer_final.html")
-file_path.write_text(html_content, encoding="utf-8")
-
-file_path
+</html>
